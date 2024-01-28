@@ -1,5 +1,5 @@
 {
-    "description": "Right shift + vowel or n to accent. r to umlaut.",
+    "description": "Hybrid Spanish/Enghish Dvorak. Right command + vowel or n to accent. r to umlaut.",
     "manipulators": [
         {
             "from": {
