@@ -1,0 +1,21 @@
+{
+    "description": "Basic command to be able to switch back to other profile.",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": {
+                    "mandatory": [
+                        "left_control"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Dvorak'"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
