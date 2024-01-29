@@ -1,1 +1,29 @@
-choco install -y googlechrome firefox paint.net windirstat discord foxitreader dropbox googledrive onedrive 7zip vlc spotify steam epicgameslauncher keepass notepadplusplus powertoys streamdeck jbs whatsapp razer-synapse-3 git microsoft-teams autohotkey wireguard 
+choco install -y
+    7zip
+    autohotkey
+    discord
+    dropbox
+    epicgameslauncher
+    firefox
+    foxitreader
+    git
+    googlechrome
+    googledrive
+    jbs
+    keepass
+    microsoft-teams
+    nordvpn
+    notepadplusplus
+    onedrive
+    paint.net
+    powertoys
+    python
+    razer-synapse-3
+    spotify
+    steam
+    streamdeck
+    vlc
+    vscode
+    whatsapp
+    windirstat
+    wireguard
