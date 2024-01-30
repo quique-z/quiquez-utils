@@ -16,6 +16,7 @@ choco install -y `
     notepadplusplus `
     onedrive `
     paint.net `
+    parsec `
     powertoys `
     pycharm-community `
     python `
