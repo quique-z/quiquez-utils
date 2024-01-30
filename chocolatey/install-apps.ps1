@@ -17,6 +17,7 @@ choco install -y `
     onedrive `
     paint.net `
     powertoys `
+    pycharm-community `
     python `
     razer-synapse-3 `
     spotify `
