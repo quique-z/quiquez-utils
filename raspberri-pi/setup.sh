@@ -15,7 +15,7 @@ sudo chmod 777 duck.sh
 cd ..
 
 # Install pi-hole
-curl -sSL https://install.pi-hole.net | bash
+curl -L https://install.pi-hole.net | bash
 
 # Install wireguard
 curl -L https://install.pivpn.io | bash
