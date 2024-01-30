@@ -1,0 +1,29 @@
+choco install -y `
+    7zip `
+    autohotkey `
+    discord `
+    dropbox `
+    epicgameslauncher `
+    firefox `
+    foxitreader `
+    git `
+    googlechrome `
+    googledrive `
+    jbs `
+    keepass `
+    microsoft-teams `
+    nordvpn `
+    notepadplusplus `
+    onedrive `
+    paint.net `
+    powertoys `
+    python `
+    razer-synapse-3 `
+    spotify `
+    steam `
+    streamdeck `
+    vlc `
+    vscode `
+    whatsapp `
+    windirstat `
+    wireguard
