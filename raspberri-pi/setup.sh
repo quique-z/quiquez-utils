@@ -9,10 +9,8 @@ sudo apt-get upgrade -y
 
 # Setup duckdns script.
 mkdir duckdns
-cd duckdns
-echo "echo url=\"https://www.duckdns.org/update?domains=${DUCKDNS_DOMAIN}&token=${DUCKDNS_TOKEN}&ip=\" | curl -k -o ~/duckdns/duck.log -K -" > duck.sh
-sudo chmod 777 duck.sh
-cd ..
+echo "echo url=\"https://www.duckdns.org/update?domains=${DUCKDNS_DOMAIN}&token=${DUCKDNS_TOKEN}&ip=\" | curl -k -o ~/duckdns/duck.log -K -" > duckdns/duck.sh
+sudo chmod 777 duckdns/duck.sh
 
 # Install pi-hole
 curl -L https://install.pi-hole.net | bash
