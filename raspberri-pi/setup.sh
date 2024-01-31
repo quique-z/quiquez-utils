@@ -28,7 +28,7 @@ echo "$(echo "${RANDOM_MINUTE} * * * * ~/duckdns/duck.sh" ; crontab -l 2>&1)" | 
 echo "$(echo '30 2 * * 1 sudo reboot' ; sudo crontab -l 2>&1)" | sudo crontab -
 
 # Setup ssh access.
-ssh-keygen
+ssh-keygen -b 2048 -t rsa -f /tmp/sshkey -q -N ""
 
 # Next time that I get a fresh /etc/ssh/sshd_config file I should look into automating this bit.
 # https://superuser.com/questions/759481/ssh-how-to-change-value-in-config-file-in-one-command
