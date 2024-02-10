@@ -27,5 +27,5 @@ choco install -y `
     vlc `
     vscode `
     whatsapp `
-    windirstat `
-    wireguard
+    wireguard `
+    wiztree
