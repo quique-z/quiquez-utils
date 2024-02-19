@@ -18,6 +18,11 @@ curl -L https://install.pi-hole.net | bash
 # Install wireguard
 curl -L https://install.pivpn.io | bash
 
+# Use the following to edit /etc/pivpn/wireguard/setupVars.conf
+# https://www.procustodibus.com/blog/2021/03/wireguard-allowedips-calculator/
+# In the allowed, keep 0.0.0.0/0, ::/0
+# In the disallowed, add your local subnet. Ex: 192.168.10.0/24
+
 # Setup crontab to update pihole and duckdns.
 echo "$(echo '15 2 * * 1 pihole -up && pihole -g' ; crontab -l 2>&1)" | crontab -
 echo "$(echo "${RANDOM_MINUTE} * * * * ~/duckdns/duck.sh" ; crontab -l 2>&1)" | crontab -
