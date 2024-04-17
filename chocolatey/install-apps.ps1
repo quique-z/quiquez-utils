@@ -9,6 +9,7 @@ choco install -y `
     git `
     googlechrome `
     googledrive `
+    hwinfo `
     jbs `
     keepass `
     microsoft-teams `
@@ -20,6 +21,8 @@ choco install -y `
     powertoys `
     pycharm-community `
     python `
+    qbittorrent `
+    rainmeter `
     razer-synapse-3 `
     spotify `
     steam `
