@@ -1,9 +1,11 @@
 choco install -y `
     7zip `
     autohotkey `
+    # battlenet ` # Not supported right now.
     discord `
     dropbox `
     epicgameslauncher `
+    filebot `  # Subtitle downloader.
     firefox `
     foxitreader `
     git `
@@ -11,16 +13,18 @@ choco install -y `
     googledrive `
     hwinfo `
     jbs `
+    jdownloader `
     keepass `
-    microsoft-teams `
+    microsoft-teams ` # Check version. Work/personal.
     nordvpn `
     notepadplusplus `
+    obs-studio `
     onedrive `
     paint.net `
     parsec `
     powertoys `
     pycharm-community `
-    python `
+    python ` # Check that this actually works next time.
     qbittorrent `
     rainmeter `
     razer-synapse-3 `
@@ -29,6 +33,6 @@ choco install -y `
     streamdeck `
     vlc `
     vscode `
-    whatsapp `
+    # whatsapp ` # Seems to not be working.
     wireguard `
-    wiztree
+    wiztree  # Disk usage utility.
