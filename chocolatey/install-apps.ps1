@@ -1,11 +1,11 @@
-choco install -y `
+choco install -y --ignore-checksums `
     7zip `
     autohotkey `
-    # battlenet ` # Not supported right now.
+    # battlenet ` # Not supported right now. ` 
     discord `
     dropbox `
     epicgameslauncher `
-    filebot `  # Subtitle downloader.
+    filebot `  # Subtitle downloader. `
     firefox `
     foxitreader `
     git `
@@ -15,7 +15,7 @@ choco install -y `
     jbs `
     jdownloader `
     keepass `
-    microsoft-teams ` # Check version. Work/personal.
+    microsoft-teams ` # Check version. Work/personal. `
     nordvpn `
     notepadplusplus `
     obs-studio `
@@ -24,7 +24,7 @@ choco install -y `
     parsec `
     powertoys `
     pycharm-community `
-    python ` # Check that this actually works next time.
+    python ` # Check that this actually works next time. `
     qbittorrent `
     rainmeter `
     razer-synapse-3 `
@@ -33,6 +33,6 @@ choco install -y `
     streamdeck `
     vlc `
     vscode `
-    # whatsapp ` # Seems to not be working.
+    # whatsapp ` # Seems to not be working. `
     wireguard `
-    wiztree  # Disk usage utility.
+    wiztree  # Disk usage utility. `
