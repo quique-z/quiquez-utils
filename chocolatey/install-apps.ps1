@@ -3,7 +3,6 @@ choco install -y --ignore-checksums `
     autohotkey `
     # battlenet ` # Not supported right now. ` 
     discord `
-    dropbox `
     epicgameslauncher `
     filebot `  # Subtitle downloader. `
     firefox `
@@ -15,7 +14,7 @@ choco install -y --ignore-checksums `
     jbs `
     jdownloader `
     keepass `
-    microsoft-teams ` # Check version. Work/personal. `
+    microsoft-teams-new-bootstrapper `
     nordvpn `
     notepadplusplus `
     obs-studio `
@@ -24,7 +23,7 @@ choco install -y --ignore-checksums `
     parsec `
     powertoys `
     pycharm-community `
-    python ` # Check that this actually works next time. `
+    python `
     qbittorrent `
     rainmeter `
     razer-synapse-3 `
